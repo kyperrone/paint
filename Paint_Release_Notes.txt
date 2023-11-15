@@ -1,0 +1,147 @@
+Release Notes
+Version: 1.0.0 (10/12/2023)
+New features:
+Notifications for autosave - trigger or on off.
+Tool tips for your buttons that appear on hover.
+Icons for drawing tools
+Allow you to rotate (90/180/270) an image
+Allow you to flip the image across the x and y axes
+Allow the rotate of either a selection (a chunk) or for your whole canvas
+
+Known issues:
+None
+
+Expected for next version:
+The sweet feeling of victory
+
+Helpful links:
+Demo video link: https://youtu.be/9fE0OVXzDPA
+Github repo link: https://github.com/kyperrone/paint
+_____________________________________________________________________________________________________________________________
+Release Notes
+Version: 0.5.0 (10/6/2023)
+New features:
+JavaDoc commenting (within code)
+The software can now handle WebP file types
+Autosave timer
+The timer's countdown can be optionally visible to the user.
+Reset the timer on a user's save.
+The software shall have a warning image features/data loss can happen 
+The software shall have at least 3 unit tests. 
+
+Known issues:
+None
+
+Expected for next version:
+Notifications for autosave - trigger or on off.
+Tool tips for your buttons that appear on hover.
+Icons for drawing tools
+Allow you to rotate (90/180/270) an image, as well as mirror [as in, do a horizontal and vertical flip (so, left becomes right / top becomes bottom).]
+Allow the rotate of either a selection (a chunk) or for your whole canvas.  [that is a both of those]
+
+_____________________________________________________________________________________________________________________________
+Release Notes
+Version: 0.4.0 (09/29/2023)
+New features:
+Provide a blank starting image and a clear canvas (with "are you sure" check) tool
+Draw a pointer arrow
+Allow the addition of text from user-typed input to your image.
+Eraser
+Draw a regular side polygon with any # of sides
+Undo and Redo 
+select and copy/paste a piece of the image
+select and move a piece of the image
+Tabs
+
+Known issues:
+Select only selects drawn lines/shapes, not image
+
+Expected for next version:
+The software shall have at least 3 unit tests. 
+The software shall have a timer that allows for autosave.  (threading not required but probably a good idea)
+The timer's countdown shall be optionally (as in some way to choose on/off) visible to the user.  Bonus/optional: Reset the timer on a user's save.
+The code shall have some JavaDoc commenting. 
+The software shall have the ability to save in an alternative file format than the one that was the original for the image.
+The software shall have a warning image features/data loss can happen 
+
+_____________________________________________________________________________________________________________________________
+
+Release Notes
+Version: 0.3.0 (09/22/2023)
+New features:
+Draw square, circle, rectangle, ellipse, triangle
+Straight line
+Smart save
+Include some sort of pun on Java.
+Color grabber
+Text label for colors (hex/rgb/English name)
+Have width controls for straight line and shapes
+Dashed outline of shape/line
+Keyboard shortcuts (control S for save, etc)
+
+Known issues:
+None
+
+Expected for next version:
+Undo and Redo - this MUST use at least (more is ok) one "stack" (this is an abstract data structure in Java)
+provide a blank starting image and a clear canvas (with "are you sure" check) tool
+draw an additional shape of your choice
+have an eraser tool
+be able to draw a regular side polygon with any # of sides
+select and copy/paste a piece of the image
+select and move a piece of the image
+allow the addition of text from user-typed input to your image.
+Tabs
+_____________________________________________________________________________________________________________________________
+Release Notes
+Version: 0.2.0 (09/15/2023)
+New features:
+Added functionality that allows user to bring an image up on screen
+Added menu bar
+Added 'Save As' button to save the image with a new name/in a new location
+Added 'Save' button to resave the image without changing the name and location
+Added 'Help' button menu
+Able to handle JPG PNG and BMP
+Resizes  working area to fit the size of the image
+Have a color chooser (does not do anything)
+Functionality to draw a line which becomes part of the image upon saving
+Save modified image
+Allow the user to control the witdth of the line
+
+Known issues:
+None
+
+Expected for next version:
+Have width controls  (width controls as in control width of a regular line or the line-edges of shapes)
+Draw square, circle, rectangle, ellipse, triangle
+Keyboard shortcuts (control S for save, etc)
+Text label for colors (hex/rgb/English name)
+Color grabber (has to modify shapes)
+Resize canvas (for larger drawing)
+Pencil (curved) or straight line (whichever you didn't do last time)
+Dashed outline of shape / line
+Smart/aware save ("you're about to close without saving...")
+Tabs (optional possible bonus, will be required week 4)
+Include some sort of pun on Java.
+
+_____________________________________________________________________________________________________________________________
+
+Release Notes
+Version: 0.1.0 (09/08/2023)
+New features:
+Added functionality that allows user to bring an image up on screen
+Added menu bar
+Added 'Save As' button to save the image with a new name/in a new location
+Added 'Save' button to resave the image without changing the name and location
+
+Known issues:
+None
+
+Expected for next version:
+Functionality to draw a line which becomes part of the image upon saving
+Be able to handle JPG PNG and BMP
+Save modified image
+Resize your working area to whatever the size of your image file issues
+Allow the user to control the witdth of the line
+Have a color chooser (does not do anything)
+Have a help menu
